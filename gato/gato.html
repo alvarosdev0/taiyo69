@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>gato relajao</title>
+
+</head>
+<body>
+
+<main class="main">
+   
+  <div class="content">
+    <figure class="cover__figure">
+      
+      <img src="images/gato.jpeg" alt="gato relajao" class="cover__img">
+
+    </figure>
+
+    <div class="cover__text">
+
+    <h1 class="cover__title">gato relajao</h1>
+
+    <h2 class="cover__paragraph">está relajao</h2>
+
+    </div>
+
+    <div class="player__container">
+        
+      <button class="player__button" id="play" aria-hidden="true" onclick="justplay()"><i class="fa-solid fa-play"></i></button>
+
+      <div class="player__time">
+        
+        <input class="player__timeline" type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+
+        <div class="player__duration">
+          
+          <p id="present"></p>
+          <p id="total"></p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>  
+
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/7615a1371a.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
