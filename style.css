@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+/*@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);*/
 
 * {
 	box-sizing: border-box;
@@ -22,7 +22,7 @@
 
 .main2 {
 	padding: 2vh;
-	height: 110vh;
+	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
@@ -62,6 +62,7 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 1em;
+	max-height: 250px;
 }
 
 .bottom {
@@ -104,7 +105,7 @@
 }
 
 .tigresa {
-	z-index: 0;
+	z-index: 2;
 	position: relative;
 	bottom: 10vh;
 	left: 40vh;
@@ -116,8 +117,67 @@
 	transform: rotateX(60deg) rotateZ(360deg);
 }
 
-.hotline__title {
+.dorito {
 	z-index: 1;
+	width: 10vh;
+    position: relative;
+    left: 20vh;
+    top: 10vh;
+   	transition: all ease 1.5s;
+}
+
+.dorito360 {
+	transform: rotateX(45deg) rotateZ(360deg);
+}
+
+.afeitadora {
+	z-index: 0;
+    position: absolute;
+    left: 20vh;
+    top: -60vh;
+    width: 35vh;
+    transform: rotatez(180deg);
+   	transition: all ease 1.5s;	
+}
+
+.afeitadora360 {
+	transform: rotateZ(360deg);
+	position: absolute;
+	top: 80vh;
+}
+
+.bum {
+	z-index: 0;
+	width: 30vh;
+    position: relative;
+    left: 20vh;
+    bottom: 110vh;
+    opacity: 0;
+
+   	transition: opacity ease 1.5s;
+}
+
+.bum-active {
+	opacity: 100;
+}
+
+.vladi {
+	width: 100%;
+	height: 100%;
+    z-index: 2;
+    inset: 0;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+   	transition: opacity ease 1.5s;
+}
+
+.vladi-active {
+	opacity: 100;
+}
+
+.hotline__title {
+	z-index: 3;
 	position: relative;
 	top: 70vh;
 	text-align: center;

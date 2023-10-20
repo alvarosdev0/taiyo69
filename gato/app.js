@@ -26,7 +26,7 @@ const reset_slider = () => {
 
 const loadsong = () => {
 	reset_slider();
-	track.src = "audios/metal-pipe.mp3";
+	track.src = "audios/trompeta.mp3";
 	track.load();
 	timer = setInterval(range_slider , 1000);
 }
