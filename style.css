@@ -27,11 +27,23 @@
 	background-image: url("images/bgalreve.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.maininvertido {
+	background-image: url("images/bginvertido.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main2invertido {
+	background-image: url("images/bgalreveinvertido.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .content {
@@ -168,7 +180,7 @@
 .vladi {
 	width: 100%;
 	height: 100%;
-    z-index: 5;
+    z-index: 2;
     inset: 0;
     position: fixed;
     pointer-events: none;
@@ -178,6 +190,17 @@
 
 .vladi-active {
 	opacity: 100;
+}
+.jajaqmrc {
+	width: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eresmrc {
+	color: red;
 }
 
 .hotline__title {
