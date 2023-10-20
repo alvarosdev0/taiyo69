@@ -24,6 +24,10 @@
 	padding: 2vh;
 	height: 100vh;
 
+	background-image: url("images/bgalreve.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
