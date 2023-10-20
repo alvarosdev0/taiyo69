@@ -39,6 +39,11 @@ tigresa.addEventListener('click', () => {
 	setTimeout(yano, 3000);
 });
 
+document.querySelector(".eresmrc").addEventListener('click', () => {
+	document.querySelector(".main").classList.toggle("maininvertido");
+	document.querySelector(".main2").classList.toggle("main2invertido");
+});
+
 const yano = () => {
 	tigresa.classList.toggle("tigresa360");
 	dorito.classList.toggle("dorito360");
