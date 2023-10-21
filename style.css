@@ -206,6 +206,11 @@
 .screamer-active {
 	opacity: 100;
 }
+
+.thinkfast {
+	transition: unset;
+}
+
 .jajaqmrc {
 	width: 100vh;
 
