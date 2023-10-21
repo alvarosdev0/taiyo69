@@ -25,7 +25,7 @@ nuez.addEventListener('click', () => {
 	track.play();
 
 	document.querySelector(".thinkfast").classList.toggle("screamer-active");
-	setTimeout(yano3, 5000);
+	setTimeout(yano3, 5300);
 });
 
 nacho.addEventListener('click', () => {
