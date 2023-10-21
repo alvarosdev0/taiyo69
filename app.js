@@ -5,6 +5,7 @@ const tigresa = document.querySelector(".tigresa");
 const casarodante = document.querySelector(".casarodante");
 const dorito = document.querySelector(".dorito");
 const bum = document.querySelector(".bum");
+const nuez = document.querySelector(".nuez")
 const afeitadora = document.querySelector(".afeitadora");
 
 let track = document.createElement('audio');
@@ -14,8 +15,17 @@ eminem.addEventListener('click', () => {
 	track.load();
 	track.play();
 
-	document.querySelector(".vladi").classList.toggle("vladi-active");
-	setTimeout(yano2, 3500);
+	document.querySelector(".vladi").classList.toggle("screamer-active");
+	setTimeout(yano2, 6000);
+});
+
+nuez.addEventListener('click', () => {
+	track.src = "audios/thinkfast.m4a";
+	track.load();
+	track.play();
+
+	document.querySelector(".thinkfast").classList.toggle("screamer-active");
+	setTimeout(yano3, 3500);
 });
 
 nacho.addEventListener('click', () => {
@@ -26,7 +36,7 @@ homero.addEventListener('click', () => {
    window.location.href = "/perro/perro.html";
 });
 
-tigresa.addEventListener('click', () => {
+document.querySelector(".hotline__title").addEventListener('click', () => {
 	track.src = "audios/pum.mp3";
 	track.load();
 	track.play();
@@ -52,5 +62,9 @@ const yano = () => {
 }
 
 const yano2 = () => {
-	document.querySelector(".vladi").classList.toggle("vladi-active");
+	document.querySelector(".vladi").classList.toggle("screamer-active");
+}
+
+const yano3 = () => {
+	document.querySelector(".thinkfast").classList.toggle("screamer-active");
 }
