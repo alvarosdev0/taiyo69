@@ -1,4 +1,3 @@
-const eminem = document.querySelector(".eminem");
 const nacho = document.querySelector(".boton1");
 const homero = document.querySelector(".boton2");
 const tigresa = document.querySelector(".tigresa");
