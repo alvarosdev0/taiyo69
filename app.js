@@ -8,16 +8,6 @@ const nuez = document.querySelector(".nuez")
 const afeitadora = document.querySelector(".afeitadora");
 
 let track = document.createElement('audio');
-
-eminem.addEventListener('click', () => {
-	track.src = "audios/violin.mp3";
-	track.load();
-	track.play();
-
-	document.querySelector(".vladi").classList.toggle("screamer-active");
-	setTimeout(yano2, 6000);
-});
-
 nuez.addEventListener('click', () => {
 	track.src = "audios/thinkfast.m4a";
 	track.load();
