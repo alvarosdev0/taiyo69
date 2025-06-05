@@ -6,8 +6,13 @@ const dorito = document.querySelector(".dorito");
 const bum = document.querySelector(".bum");
 const nuez = document.querySelector(".nuez");
 const afeitadora = document.querySelector(".afeitadora");
+const vladi = document.querySelector(".asd");
 
 let track = document.createElement("audio");
+vladi.addEventListener("click", () => {
+  document.querySelector(".vladi").classList.toggle("screamer-active");
+  setTimeout(yano2, 3000);
+});
 nuez.addEventListener("click", () => {
   track.src = "audios/thinkfast.m4a";
   track.load();
@@ -44,6 +49,7 @@ const yano = () => {
 
 const yano2 = () => {
   document.querySelector(".vladi").classList.toggle("screamer-active");
+  alert("hola");
 };
 
 const yano3 = () => {

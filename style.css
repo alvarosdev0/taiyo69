@@ -1,258 +1,274 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 * {
-	box-sizing: border-box;
-	margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .main {
-	padding: 2vh;
-	height: 100vh;
+  padding: 2vh;
+  height: 100vh;
 
-	background-image: url("images/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: background-image ease 1s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-image ease 1s;
 }
 
 .main2 {
-	padding: 2vh;
-	height: 100vh;
+  padding: 2vh;
+  height: 100vh;
 
-	background-image: url("images/bgalreve.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: background-image ease 1s;
+  background-image: url("images/bgalreve.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-image ease 1s;
 }
 
 .maininvertido {
-	background-image: url("images/bginvertido.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url("images/bginvertido.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main2invertido {
-	background-image: url("images/bgalreveinvertido.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url("images/bgalreveinvertido.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 
 .title {
-	font-size: 22px;
+  font-size: 22px;
 }
 
 .content__text {
-	display: inline-block;
-	width: 80%;
-	padding: .5em;
-	background-color: white;
-	border: 2px solid black;
-	text-align: center;
+  display: inline-block;
+  width: 80%;
+  padding: 0.5em;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
 }
 
 .content__img {
-	max-width: 130px;
-	min-height: 140px;
-	max-height: 140px;
+  max-width: 130px;
+  min-height: 140px;
+  max-height: 140px;
 }
 
 .top {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1em;
-	max-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  max-height: 250px;
 }
 
 .bottom {
-	display: flex;
-	justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .bloque {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-	gap: 1em;
+  gap: 1em;
 }
 
 .boton1:hover {
-	background-color: blue;
-	color: white;
-	cursor: pointer;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
 }
 
 .boton2:hover {
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	font-size: 30px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
 }
 
 .casarodante {
-	position: absolute;
-	width: 100px;
-	top: 10vh;
-	right: 70vh;
+  position: absolute;
+  width: 100px;
+  top: 10vh;
+  right: 70vh;
 
-	transition: all ease 10s;
+  transition: all ease 10s;
 }
 
 .casarodanteactiva {
-	right: -20vh;
+  right: -20vh;
 }
 
 .tigresa {
-	z-index: 2;
-	position: relative;
-	bottom: 10vh;
-	left: 40vh;
+  z-index: 2;
+  position: relative;
+  bottom: 10vh;
+  left: 40vh;
 
-	transition: all linear 1s;
+  transition: all linear 1s;
 }
 
 .tigresa360 {
-	transform: rotateX(60deg) rotateZ(360deg);
+  transform: rotateX(60deg) rotateZ(360deg);
 }
 
 .dorito {
-	z-index: 1;
-	width: 10vh;
-    position: relative;
-    left: 20vh;
-    top: 10vh;
-   	transition: all ease 1.5s;
+  z-index: 1;
+  width: 10vh;
+  position: relative;
+  left: 20vh;
+  top: 10vh;
+  transition: all ease 1.5s;
 }
 
 .dorito360 {
-	transform: rotateX(45deg) rotateZ(360deg);
+  transform: rotateX(45deg) rotateZ(360deg);
 }
 
 .afeitadora {
-	z-index: 0;
-    position: absolute;
-    left: 20vh;
-    top: -60vh;
-    width: 35vh;
-    transform: rotatez(180deg);
-   	transition: all ease 1.5s;	
+  z-index: 0;
+  position: absolute;
+  left: 20vh;
+  top: -60vh;
+  width: 35vh;
+  transform: rotatez(180deg);
+  transition: all ease 1.5s;
 }
 
 .afeitadora360 {
-	transform: rotateZ(360deg);
-	position: absolute;
-	top: 80vh;
+  transform: rotateZ(360deg);
+  position: absolute;
+  top: 80vh;
 }
 
 .bum {
-	z-index: 0;
-	width: 30vh;
-    position: relative;
-    left: 20vh;
-    bottom: 110vh;
-    opacity: 0;
+  z-index: 0;
+  width: 30vh;
+  position: relative;
+  left: 20vh;
+  bottom: 110vh;
+  opacity: 0;
 
-   	transition: opacity ease 1.5s;
+  transition: opacity ease 1.5s;
 }
 
 .bum-active {
-	opacity: 100;
+  opacity: 100;
 }
 
 .content__img--nuez {
-	position: absolute;
-	right: 4vh;
-	bottom: 10vh;
+  position: absolute;
+  right: 4vh;
+  bottom: 10vh;
 }
 
 .nuez {
-	z-index: 5;
-	min-height: unset;
-	max-width: 15vh;
+  z-index: 5;
+  min-height: unset;
+  max-width: 15vh;
 }
 
 .screamer {
-	width: 100%;
-	height: 100%;
-    z-index: 6;
-    inset: 0;
-    position: fixed;
-    pointer-events: none;
-    opacity: 0;
-   	transition: opacity ease 1.5s;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+  inset: 0;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity ease 1.5s;
 }
 
 .screamer-active {
-	opacity: 100;
+  opacity: 100;
 }
 
 .thinkfast {
-	transition: unset;
+  transition: unset;
 }
 
 .jajaqmrc {
-	width: 100vh;
+  width: 100vh;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .eresmrc {
-	color: red;
+  color: red;
 }
 
 .hotline__title {
-	z-index: 3;
-	position: relative;
-	top: 70vh;
-	text-align: center;
-	display: flex;
- 	align-items: center;
-	justify-content: center;
-	font-size: 3.5em;
-	font-weight: 900;
-	text-transform: uppercase;
-	line-height: 1.0em;
-	animation-name: desplaçament, color, rotacio;
-	animation-duration: 2s, 1s, 3s;
-	animation-timing-function: ease-in, ease-out, ease-in-out;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+  z-index: 3;
+  position: relative;
+  top: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  animation-name: desplaçament, color, rotacio;
+  animation-duration: 2s, 1s, 3s;
+  animation-timing-function: ease-in, ease-out, ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-* { margin: 0; padding: 0; border-width: 0; }
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
 
 @keyframes desplaçament {
-	from { text-shadow: 0 0 #FF4BA8; }
-	to { text-shadow: .15em .15em #FF4BA8; }
+  from {
+    text-shadow: 0 0 #ff4ba8;
+  }
+  to {
+    text-shadow: 0.15em 0.15em #ff4ba8;
+  }
 }
 @keyframes color {
-	from { color: #00E5F8; }
-	to { color: #0CACA6; }
+  from {
+    color: #00e5f8;
+  }
+  to {
+    color: #0caca6;
+  }
 }
 @keyframes rotacio {
-	from { transform: rotate(-4deg); }
-	to { transform: rotate(4deg); }
+  from {
+    transform: rotate(-4deg);
+  }
+  to {
+    transform: rotate(4deg);
+  }
 }
