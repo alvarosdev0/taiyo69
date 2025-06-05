@@ -17,14 +17,6 @@ nuez.addEventListener("click", () => {
   setTimeout(yano3, 5300);
 });
 
-nacho.addEventListener("click", () => {
-  window.location.href = "taiyo69/gato/gato.html";
-});
-
-homero.addEventListener("click", () => {
-  window.location.href = "taiyo69/perro/perro.html";
-});
-
 document.querySelector(".hotline__title").addEventListener("click", () => {
   track.src = "audios/pum.mp3";
   track.load();
