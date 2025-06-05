@@ -10,6 +10,9 @@ const vladi = document.querySelector(".asd");
 
 let track = document.createElement("audio");
 vladi.addEventListener("click", () => {
+  track.src = "audios/shit.mp3";
+  track.load();
+  track.play();
   document.querySelector(".vladi").classList.toggle("screamer-active");
   setTimeout(yano2, 3000);
 });
